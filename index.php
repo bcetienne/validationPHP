@@ -5,6 +5,7 @@
   <?php
     include_once('./templates/head.php');
     include_once('./functions.php');
+    session_start();
   ?>
     <title>Accueil</title>
 </head>

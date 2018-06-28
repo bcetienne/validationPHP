@@ -5,6 +5,7 @@
   <?php
     include_once('./templates/head.php');
     include_once('./functions.php');
+    session_start();
     $productsPrice = [
       '1' => 30,
       '2' => 15,

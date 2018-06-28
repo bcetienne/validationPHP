@@ -46,27 +46,31 @@
     <div class="row">
       <div class="col-lg-6">
         <h1>Inscrivez-vous</h1>
+        <form action="./test.php" method="POST">
           <div class="form-group">
             <label for="emailSignIn">Adresse e-mail</label>
-            <input type="email" class="form-control" id="emailSignIn" aria-describedby="emailHelp" placeholder="email@domaine.com">
+            <input type="email" class="form-control" id="emailSignIn" name="emailSignIn" aria-describedby="emailHelp" placeholder="email@domaine.com">
           </div>
           <div class="form-group">
             <label for="passwordSignIn">Mot de passe</label>
-            <input type="password" class="form-control" id="passwordSignIn" placeholder="Mot de passe">
+            <input type="password" class="form-control" id="passwordSignIn" name="passwordSignIn" placeholder="Mot de passe">
           </div>
-          <button type="submit" class="btn btn-primary" onclick="signInJS(emailSignIn, passwordSignIn)">Envoyer</button>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
       </div>
       <div class="col-lg-6">
         <h1>Connectez-vous</h1>
+        <form action="./test.php" method="POST">
           <div class="form-group">
             <label for="emailLogIn">Adresse e-mail</label>
-            <input type="email" class="form-control" id="emailLogIn" aria-describedby="emailHelp" placeholder="email@domaine.com">
+            <input type="email" class="form-control" id="emailLogIn" name="emailLogIn" aria-describedby="emailHelp" placeholder="email@domaine.com">
           </div>
           <div class="form-group">
             <label for="passwordLogIn">Mot de passe</label>
-            <input type="password" class="form-control" id="passwordLogIn" placeholder="Mot de passe">
+            <input type="password" class="form-control" id="passwordLogIn" name="passwordLogIn" placeholder="Mot de passe">
           </div>
-          <button type="submit" class="btn btn-primary" onclick="logInJS(emailLogIn, passwordLogIn)">Envoyer</button>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
       </div>
     </div>
 
